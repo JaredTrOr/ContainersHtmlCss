@@ -5,7 +5,48 @@
     font-family: 'Roboto';
 }
 
-.outer-container{
+.main-header{
+    background-color: steelblue;
+    padding: 1rem;
+}
+
+.nav-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.nav-items{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-items li{
+    list-style: none;
+}
+
+.nav-items li{
+    font-size: 1em;
+    transition: 0.2s ease;
+}
+
+.nav-items li:hover{
+    transform: scale(1.1);
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
     border-radius: 5px;
     background-color: steelblue;
     padding: 1rem;
