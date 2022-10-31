@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: 'Roboto';
 }
+
+.outer-container{
+    border-radius: 5px;
+    background-color: steelblue;
+    padding: 1rem;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.inner-container{
+    background-color: white;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.content{
+    margin-top: 2rem;
+}
